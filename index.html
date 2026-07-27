@@ -114,6 +114,7 @@
       <sc-for list="{{ navItems }}" as="tab" hint-placeholder-count="7">
         <button onClick="{{ tab.go }}" style="font-family: var(--font-body); font-size: 15px; font-weight: 600; padding: 8px 18px; border-radius: 999px; border: 1px solid {{ tab.border }}; background: {{ tab.bg }}; color: {{ tab.fg }}; cursor: pointer;" style-hover="background: var(--color-accent-100);">{{ tab.label }}</button>
       </sc-for>
+      <a href="/privacy.html" style="align-self: center; font-family: var(--font-body); font-size: 14px; font-weight: 500; padding: 8px 14px; color: var(--color-neutral-600); text-decoration: none;">Privacy</a>
     </nav>
   </header>
 
@@ -814,13 +815,5 @@ class Component extends DCLogic {
 }
 </script>
 
-<footer class="site-footer">
-  <div class="wrap">
-    <div class="legal">
-      <p>© 2026 The Novacene Ltd · The VerseNet · <a href="/privacy.html">Privacy</a> · <a href="mailto:hello@thenovacene.com">hello@thenovacene.com</a></p>
-      <p style="margin-top:8px;">A field decentralised, symbolic, and protected.</p>
-    </div>
-  </div>
-</footer>
 </body>
 </html>
