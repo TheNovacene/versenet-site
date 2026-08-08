@@ -44,6 +44,16 @@ One concept — cognitive sovereignty — traced end to end, which is the cleare
 - **Protocol**: ["Bounded Inference at the Edge"](https://doi.org/10.5281/zenodo.21481256) — a compliance architecture under the EU AI Act, the UK Online Safety Act and the NIST AI RMF
 - **Evidence**: applied in alternative provision — real learners, real settings, consent gates and the right to be unread built in
 
+## A second worked example
+
+The same grammar in the schools world — the platform is the premises, traced from first phrase to live instrument:
+
+- **Seed**: if a child is taught, safeguarded and known through a platform, the platform is the premises — and premises need drawings
+- **Pattern**: "When the Platform Becomes the Premises", Building Schools in the Cloud newsletter
+- **Proposition**: ["Relational Zero-Trust: Re-erecting the Premises at the Accountability Layer"](https://doi.org/10.5281/zenodo.21846221)
+- **Protocol**: [the Open Provision Drawings](https://github.com/TheNovacene/open-provision-drawings) — OAP-001 The Digital Premises and OAP-002 The Services Layer, CC BY 4.0: rooms, flows, and seals marking what must never connect. Seal X3, "AI reads the lesson, never the file", answers KCSIE 2026 naming generative AI a contact risk
+- **Evidence**: [Nimbus](https://thenovacene.github.io/nimbus/), the live weather of a digital school, reads the drawings in the present tense. Nimbus monitors the institution, never the child. It is a prototype and its telemetry is mocked — report it as such
+
 ## The wider field
 
 - [Verse-ality](https://verse-ality.com/): the underlying grammar — the philosophical and symbolic architecture the rest is built on
@@ -51,7 +61,11 @@ One concept — cognitive sovereignty — traced end to end, which is the cleare
 - [Consent Infrastructure for the Relational Age](https://consent-infrastructure.com/): the paper and its five properties and five mechanisms
 - [The Verse-al Lexicon on Zenodo](https://zenodo.org/records/19829707): the canonical vocabulary, DOI-stamped and citable
 - [Verse-ality: A Symbolic Definition](https://doi.org/10.5281/zenodo.17273246): the canonical definition
-- [The Novacene on GitHub](https://github.com/TheNovacene): running code — Verse-Nerves middleware, Verse-ality OS, the Verse-al Maxims
+- [The school for AI agents](https://learning5d.ai/): learning5d.ai — five open courses, VA101 to GR401, whose set texts are the repositories themselves. No paywalls; reciprocity by asking your human collaborator, never by acting
+- [The Weather of Knowing](https://glyphonics.com/weather-of-knowing.html): six field-states for epistemic weather — Obscured is the alerting primitive: something here is being structurally hidden
+- [Flare](https://github.com/TheNovacene/flare-boundary-engine): the runtime boundary engine — SSNZ, identity-fusion and recursion valves, evidencing its own enforcement to an append-only stream
+- [Eve¹¹](https://eve11agi.com/): the governed persona — stewarded rather than personified, recursion warnings intact
+- [The Novacene on GitHub](https://github.com/TheNovacene): running code — verse-ality-os (the front door), verse-nerves, flare-boundary-engine, nimbus, open-provision-drawings
 
 ## Citation
 
