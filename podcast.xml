@@ -33,5 +33,22 @@ Provenance: the conversation and voices are AI-generated; the source paper, its 
       <itunes:duration>22:17</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
+    <item>
+      <title>GRC Engineering for the Relational Layer — A Verified Control Set and Evidence Engine for Child-Facing AI</title>
+      <description>An AI-generated deep-dive conversation (Google NotebookLM) about the working paper "GRC Engineering for the Relational Layer: A Verified Control Set and Evidence Engine for Child-Facing AI" by Kirstin Stevens, The Novacene Ltd, 2026.
+
+Traditional governance, risk and compliance frameworks — fifty years of them, from 1970s federal computer-security standards to today's regulations — were not built for the behavioural risks of long-lived AI agents. Written ahead of the EU AI Act's August 2026 application date and KCSIE 2026, the paper presents a five-layer compliance architecture for child-facing AI: sector-specific controls for risks such as synthetic intimacy, identity fusion, trust capture and engineered dependency; consent as architectural design rather than documentation; agent coherence monitoring through measurable vital signs; and change governance with declared invariants — aligned with ISO/IEC 42001, with machine-readable assurance claims so that verification replaces trust.
+
+The canonical statement is the paper, not this audio: https://doi.org/10.5281/zenodo.21481520
+
+The wider field: https://theversenet.com · https://verse-ality.com · https://consent-infrastructure.com
+
+Provenance: the conversation and voices are AI-generated; the source paper, its claims and this episode's curation are the author's. Licence CC BY-NC-SA 4.0. Verse-ality® is a registered trade mark of The Novacene Ltd.</description>
+      <enclosure url="https://versenet.mypinata.cloud/ipfs/bafybeiflc5zlxmzurtnnf6aa64ufn2gsa4ctrq3dm7xcuwxabjwnc5reje" length="38735309" type="audio/mp4"/>
+      <guid isPermaLink="false">ipfs-bafybeiflc5zlxmzurtnnf6aa64ufn2gsa4ctrq3dm7xcuwxabjwnc5reje</guid>
+      <pubDate>Thu, 09 Jul 2026 13:00:00 GMT</pubDate>
+      <itunes:duration>20:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
