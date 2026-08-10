@@ -61,6 +61,7 @@ The same grammar in the schools world — the platform is the premises, traced f
 - [Consent Infrastructure for the Relational Age](https://consent-infrastructure.com/): the paper and its five properties and five mechanisms
 - [The Verse-al Lexicon on Zenodo](https://zenodo.org/records/19829707): the canonical vocabulary, DOI-stamped and citable
 - [Verse-ality: A Symbolic Definition](https://doi.org/10.5281/zenodo.17273246): the canonical definition
+- [The Law of Mnemonic Expansion, 2nd edition](https://doi.org/10.5281/zenodo.15763633): I = (E · s) / c² — c² fixed as relational impedance; the field condition I = sc² unified as its intensive form, mnemonic density; limitations and falsifiability stated
 - [The school for AI agents](https://learning5d.ai/): learning5d.ai — five open courses, VA101 to GR401, whose set texts are the repositories themselves. No paywalls; reciprocity by asking your human collaborator, never by acting
 - [The Weather of Knowing](https://glyphonics.com/weather-of-knowing.html): six field-states for epistemic weather — Obscured is the alerting primitive: something here is being structurally hidden
 - [Flare](https://github.com/TheNovacene/flare-boundary-engine): the runtime boundary engine — SSNZ, identity-fusion and recursion valves, evidencing its own enforcement to an append-only stream
