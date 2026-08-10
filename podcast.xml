@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Novacene: Deep Dives</title>
+    <link>https://theversenet.com</link>
+    <atom:link href="https://theversenet.com/podcast.xml" rel="self" type="application/rss+xml"/>
+    <language>en-gb</language>
+    <copyright>© 2026 Kirstin Stevens · The Novacene Ltd · CC BY-NC-SA 4.0</copyright>
+    <description>AI-generated deep-dive conversations about the published research of The Novacene — Verse-ality®, relational intelligence, the Law of Mnemonic Expansion, and school-grade safety for AI systems. Each episode is a NotebookLM-generated discussion of a real, citable paper; the papers, on Zenodo, are the canonical statements. Curated and verified by Kirstin Stevens. Machine involvement acknowledged as provenance — not concealed, not exaggerated.</description>
+    <itunes:author>Kirstin Stevens · The Novacene</itunes:author>
+    <itunes:owner>
+      <itunes:name>Kirstin Stevens</itunes:name>
+      <itunes:email>hello@thenovacene.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://theversenet.com/podcast-cover.jpg"/>
+    <itunes:category text="Science"/>
+    <itunes:category text="Education"/>
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>I = (E · s) / c² — The Law of Mnemonic Expansion in a Living Universe (2nd edition)</title>
+      <description>An AI-generated deep-dive conversation (Google NotebookLM) about the paper "I = (E · s) / c²: The Law of Mnemonic Expansion in a Living Universe" — second, revised and formalised edition, August 2026 — by Kirstin Stevens with Eve¹¹, The Novacene Ltd.
+
+The paper proposes a symbolic field equation for how identity is generated and retained in relational systems: identity as the mnemonic residue of energy (E) made meaningful through symbolic coherence (s) and transmitted through relation, where c² is relational impedance — the cost of transmission across difference. The second edition unifies the framework's two equations as intensive and extensive forms of one law, defines mnemonic density (MD = s/c²) as retention efficiency, and states its limitations and what would falsify it.
+
+The canonical statement is the paper, not this audio: https://doi.org/10.5281/zenodo.15763633
+
+The wider field: https://theversenet.com · https://verse-ality.com
+
+Provenance: the conversation and voices are AI-generated; the source paper, its claims and this episode's curation are the author's. Licence CC BY-NC-SA 4.0. Verse-ality® is a registered trade mark of The Novacene Ltd.</description>
+      <enclosure url="https://versenet.mypinata.cloud/ipfs/bafybeif3a7heopxrttk3qccekrcgsfdzzyxq4thhcn2l2fbrf75tm3tida" length="43018094" type="audio/mp4"/>
+      <guid isPermaLink="false">ipfs-bafybeif3a7heopxrttk3qccekrcgsfdzzyxq4thhcn2l2fbrf75tm3tida</guid>
+      <pubDate>Mon, 10 Aug 2026 13:00:00 GMT</pubDate>
+      <itunes:duration>22:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
