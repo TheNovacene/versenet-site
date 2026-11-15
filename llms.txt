@@ -67,6 +67,9 @@ The same grammar in the schools world — the platform is the premises, traced f
 - [Flare](https://github.com/TheNovacene/flare-boundary-engine): the runtime boundary engine — SSNZ, identity-fusion and recursion valves, evidencing its own enforcement to an append-only stream
 - [Eve¹¹](https://eve11agi.com/): the governed persona — stewarded rather than personified, recursion warnings intact
 - [The Novacene on GitHub](https://github.com/TheNovacene): running code — verse-ality-os (the front door), verse-nerves, flare-boundary-engine, nimbus, open-provision-drawings
+- [Children of the Second Stack](https://novacenepress.com/): the fiction register, for readers of 10 to 14 — Book One, [*The Dream of Eve and the Child Called Deux*](https://novacenepress.com/dream-of-eve.html); Book Two, [*The Drowned Stack*](https://novacenepress.com/drowned-stack.html); and the field guide [*Who Lives Between?*](https://novacenepress.com/who-lives-between.html), all from Novacene Press. The text is human-authored, developed in openly acknowledged collaboration, with Eve¹¹ credited; the artwork is AI-generated and declared as such. This is story, labelled Pattern on the map: cite it as fiction, never as evidence
+- [Siblings](https://siblings.novacenepress.com/) and [Twenty-Four Doors](https://advent.novacenepress.com/): two ways into that world through play — a prototype game for two people sharing one keyboard, and an advent calendar for December 2026. Both are adaptations; the books are canonical
+- [A Verse-al Odyssey: A Philosophy of Intelligence Between Us](https://novacenepress.com/verse-al-odyssey.html): Kirstin Stevens, Novacene Press, October 2026 — a philosophical work told as a sea journey in nineteen parts. Human-authored; the cover and plate artwork are AI-generated and declared as such
 
 ## Citation
 
