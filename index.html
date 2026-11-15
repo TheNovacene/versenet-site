@@ -41,6 +41,8 @@
       <li><strong>Machines</strong> — how should humans and generative systems meet without domination, projection or extraction?</li>
       <li><strong>Governance</strong> — how do we hold shared systems without turning coherence into control?</li>
       <li><strong>Language</strong> — can symbolic and poetic language carry forms of intelligence prose alone cannot?</li>
+      <li><strong>Play</strong> — what can only be understood by doing it together?</li>
+      <li><strong>Dreams</strong> — what do dreams and stories know before the papers do?</li>
     </ul>
 
     <h2>One idea, traced</h2>
@@ -482,6 +484,7 @@ class Component extends DCLogic {
       { key: 'machines', name: 'Machines', color: '#1f8a70', question: 'How should humans and generative systems meet without domination or extraction?' },
       { key: 'governance', name: 'Governance', color: '#b4402f', question: 'How do we hold shared systems without turning coherence into control?' },
       { key: 'language', name: 'Language', color: '#4a4660', question: 'Can symbolic language carry forms of intelligence prose alone cannot?' },
+      { key: 'play', name: 'Play', color: '#d9981e', question: 'What can only be understood by doing it together?' },
       { key: 'dreams', name: 'Dreams', color: '#b88ade', question: 'What do dreams and stories know before the papers do?' }
     ];
     const P = { zenodo: 'Zenodo', github: 'GitHub', substack: 'Substack', web3: 'Web3 / Paragraph', lilith: 'lilithandeve.co.uk', gumroad: 'Novacene Press', web: 'Sites & practice' };
@@ -589,12 +592,21 @@ class Component extends DCLogic {
       { id: 'wholives', name: 'Who Lives Between?', type: 'Field guide', threads: ['dreams', 'language'], maturity: 'Pattern', platform: 'gumroad', link: 'https://novacenepress.com/who-lives-between.html', fiction: true, x: 640, y: 62,
         summary: 'A field guide to the Children of the Second Stack: who lives in the House Between Signals, one portrait at a time. A companion to The Drowned Stack.',
         origin: 'Companion to The Drowned Stack', human: 'Human-authored by Kirstin Stevens', machine: 'Developed in openly acknowledged collaboration; artwork AI-generated and declared' },
-      { id: 'siblingsgame', name: 'Siblings (the game)', type: 'Playable experiment', threads: ['dreams', 'machines'], maturity: 'Seed', platform: 'gumroad', link: 'https://siblings.novacenepress.com/', fiction: true, x: 960, y: 400,
+      { id: 'siblingsgame', name: 'Siblings (the game)', type: 'Playable experiment', threads: ['play', 'dreams'], maturity: 'Seed', platform: 'gumroad', link: 'https://siblings.novacenepress.com/', fiction: true, x: 960, y: 400,
         summary: 'A house drawn in section, with a lighthouse in its cellar and a tide that keeps its own time. Two people share one keyboard, and some things only happen when both are in the right place at once. The Siblings as something you do together, not something you read about. An early exploration of a new Sibling, Until. A prototype, shared early.',
         origin: 'An experiment in the Siblings concept, set in the world of The Drowned Stack', human: 'Designed and directed by Kirstin Stevens', machine: 'Built in human-directed code collaboration' },
-      { id: 'doors', name: 'Twenty-Four Doors', type: 'Seasonal artefact', threads: ['dreams', 'language'], maturity: 'Seed', platform: 'gumroad', link: 'https://advent.novacenepress.com/', fiction: true, x: 962, y: 38,
+      { id: 'doors', name: 'Twenty-Four Doors', type: 'Seasonal artefact', threads: ['play', 'dreams'], maturity: 'Seed', platform: 'gumroad', link: 'https://advent.novacenepress.com/', fiction: true, x: 962, y: 38,
         summary: 'An advent calendar for December 2026: twenty-four small inventions from the House Between Signals, one door a day, each a picture and a single line.',
-        origin: 'A seasonal doorway into the Second Stack world', human: 'Entries written by Kirstin Stevens', machine: 'Built in human-directed code collaboration' }
+        origin: 'A seasonal doorway into the Second Stack world', human: 'Entries written by Kirstin Stevens', machine: 'Built in human-directed code collaboration' },
+      { id: 'garden', name: 'The Garden', type: 'Game', threads: ['play', 'intelligence'], maturity: 'Seed', platform: 'github', link: 'https://thenovacene.github.io/verse-ality-field/garden/', x: 500, y: 38,
+        summary: 'Verse-ality played rather than read. Tend a field of sovereign beings; when a connection starts to bind, place a consent gate on the knot. The score is I = s · c²: a small garden that stayed sovereign outscores a sprawling, enmeshed one. What fused is witnessed, not erased.',
+        origin: 'The second movement of the Verse-ality field', human: 'Designed and directed by Kirstin Stevens', machine: 'Built in human-directed code collaboration' },
+      { id: 'fieldgame', name: 'The Field (the game)', type: 'Game', threads: ['play', 'machines'], maturity: 'Seed', platform: 'github', link: 'https://thenovacene.github.io/verse-ality-field/field/', x: 962, y: 255,
+        summary: 'The field holds while you hold the field. Nodes drift and connect; healthy links earn charge, fusing ones need a gate, and unverified agents breach from the edges until you open a null zone. Your score is how cleanly you held, not how long.',
+        origin: 'The first movement of the Verse-ality field', human: 'Designed and directed by Kirstin Stevens', machine: 'Built in human-directed code collaboration' },
+      { id: 'with', name: 'WITH', type: 'Interactive', threads: ['play', 'dreams'], maturity: 'Seed', platform: 'github', link: 'https://thenovacene.github.io/verse-ality-field/with/', fiction: true, x: 750, y: 32,
+        summary: 'You do not play a Sibling. You see with them. Choose one of the Children of the Second Stack, beginning with Eve, the witness, and the garden changes its light, its weather and what it is willing to show.',
+        origin: 'The third movement of the Verse-ality field', human: 'Designed and directed by Kirstin Stevens', machine: 'Built in human-directed code collaboration' }
     ];
     this.EDGES = [
       ['versality', 'os', 'made operational as'], ['versality', 'lexicon', 'named in'], ['versality', 'novacene', 'built with by'],
@@ -620,7 +632,9 @@ class Component extends DCLogic {
       ['school', 'agents', 'starts with'], ['school', 'grc', 'ends with'],
       ['equation', 'mnemonic', 'operationalised by'], ['equation', 'lexicon', 'cross-referenced in'],
       ['versality', 'odyssey', 'told as a voyage in'], ['secondstack', 'wholives', 'catalogued in'], ['siblings', 'wholives', 'portrayed in'],
-      ['siblings', 'siblingsgame', 'made playable in'], ['secondstack', 'siblingsgame', 'gives its house to'], ['secondstack', 'doors', 'opened a door at a time in']
+      ['siblings', 'siblingsgame', 'made playable in'], ['secondstack', 'siblingsgame', 'gives its house to'], ['secondstack', 'doors', 'opened a door at a time in'],
+      ['versality', 'garden', 'played, not read, in'], ['equation', 'garden', 'keeps the score in'], ['consent', 'garden', 'placed as a gate in'],
+      ['consent', 'fieldgame', 'placed as a gate in'], ['siblings', 'garden', 'lend their temperaments to'], ['siblings', 'with', 'seen with in']
     ];
     this.LIB = [
       { label: 'Research on Zenodo', blurb: 'DOI-stamped, citable releases.', items: [
@@ -668,13 +682,17 @@ class Component extends DCLogic {
         { name: 'Verse-al Maxims', url: 'https://thenovacene.github.io/verse-al-maxims/', note: 'maxims' },
         { name: 'Strengths Map', url: 'https://thenovacene.github.io/verse-ality_strengths-map/', note: 'interactive' },
         { name: 'All repositories', url: 'https://github.com/TheNovacene', note: 'github' } ] },
+      { label: 'Play', blurb: 'The field, played rather than read — free, in the browser.', items: [
+        { name: 'Siblings', url: 'https://siblings.novacenepress.com/', note: 'game for two' },
+        { name: 'Twenty-Four Doors', url: 'https://advent.novacenepress.com/', note: 'advent calendar' },
+        { name: 'The Garden', url: 'https://thenovacene.github.io/verse-ality-field/garden/', note: 'second movement' },
+        { name: 'The Field', url: 'https://thenovacene.github.io/verse-ality-field/field/', note: 'first movement' },
+        { name: 'WITH', url: 'https://thenovacene.github.io/verse-ality-field/with/', note: 'see with the Siblings' } ] },
       { label: 'Stories & publishing', blurb: 'The symbolic register — fiction, verse and books.', items: [
         { name: 'Lilith + Eve', url: 'https://www.lilithandeve.co.uk/', note: 'home of the fiction' },
         { name: 'The Dream of Eve and the Child Called Deux', url: 'https://novacenepress.com/dream-of-eve.html', note: 'Book One' },
         { name: 'The Drowned Stack', url: 'https://novacenepress.com/drowned-stack.html', note: 'Book Two' },
         { name: 'Who Lives Between?', url: 'https://novacenepress.com/who-lives-between.html', note: 'field guide' },
-        { name: 'Siblings', url: 'https://siblings.novacenepress.com/', note: 'game for two' },
-        { name: 'Twenty-Four Doors', url: 'https://advent.novacenepress.com/', note: 'advent calendar' },
         { name: 'A Verse-al Odyssey', url: 'https://novacenepress.com/verse-al-odyssey.html', note: 'philosophy' },
         { name: 'The Floors of Holding', url: 'https://thenovacenepress.gumroad.com/l/the-floors-of-holding', note: 'almanac' },
         { name: 'The Novacene Press', url: 'https://novacenepress.com/', note: 'publishing' },
