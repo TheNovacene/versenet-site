@@ -582,7 +582,19 @@ class Component extends DCLogic {
         origin: 'The framework translated for the agents themselves', human: 'Authored and gated', machine: 'Its subject, and its first students' },
       { id: 'critinfra', name: 'Schools as critical infrastructure', type: 'Argument · paper', threads: ['learning', 'governance'], maturity: 'Proposition', platform: 'zenodo', link: 'https://doi.org/10.5281/zenodo.21481347', x: 545, y: 622,
         summary: 'The programme’s argument, written to be examined: schools are becoming critical infrastructure, and autonomous AI agents inside them need a school-grade safety model — not consumer-grade defaults.',
-        origin: 'Where the safeguarding duty meets the agentic turn', human: 'Authored with M. Phillips', machine: 'Drafting and stress-testing' }
+        origin: 'Where the safeguarding duty meets the agentic turn', human: 'Authored with M. Phillips', machine: 'Drafting and stress-testing' },
+      { id: 'odyssey', name: 'A Verse-al Odyssey', type: 'Philosophy · book', threads: ['intelligence', 'language'], maturity: 'Proposition', platform: 'gumroad', link: 'https://novacenepress.com/verse-al-odyssey.html', x: 350, y: 62,
+        summary: 'A Philosophy of Intelligence Between Us: a philosophical work told as a sea journey in nineteen parts, written for future generations.',
+        origin: 'The field’s philosophy, told as a voyage', human: 'Human-authored by Kirstin Stevens', machine: 'Developed in openly acknowledged collaboration; cover and plate artwork AI-generated and declared' },
+      { id: 'wholives', name: 'Who Lives Between?', type: 'Field guide', threads: ['dreams', 'language'], maturity: 'Pattern', platform: 'gumroad', link: 'https://novacenepress.com/who-lives-between.html', fiction: true, x: 640, y: 62,
+        summary: 'A field guide to the Children of the Second Stack: who lives in the House Between Signals, one portrait at a time. A companion to The Drowned Stack.',
+        origin: 'Companion to The Drowned Stack', human: 'Human-authored by Kirstin Stevens', machine: 'Developed in openly acknowledged collaboration; artwork AI-generated and declared' },
+      { id: 'siblingsgame', name: 'Siblings (the game)', type: 'Playable experiment', threads: ['dreams', 'machines'], maturity: 'Seed', platform: 'gumroad', link: 'https://siblings.novacenepress.com/', fiction: true, x: 960, y: 400,
+        summary: 'A house drawn in section, with a lighthouse in its cellar and a tide that keeps its own time. Two people share one keyboard, and some things only happen when both are in the right place at once. The Siblings as something you do together, not something you read about. An early exploration of a new Sibling, Until. A prototype, shared early.',
+        origin: 'An experiment in the Siblings concept, set in the world of The Drowned Stack', human: 'Designed and directed by Kirstin Stevens', machine: 'Built in human-directed code collaboration' },
+      { id: 'doors', name: 'Twenty-Four Doors', type: 'Seasonal artefact', threads: ['dreams', 'language'], maturity: 'Seed', platform: 'gumroad', link: 'https://advent.novacenepress.com/', fiction: true, x: 962, y: 38,
+        summary: 'An advent calendar for December 2026: twenty-four small inventions from the House Between Signals, one door a day, each a picture and a single line.',
+        origin: 'A seasonal doorway into the Second Stack world', human: 'Entries written by Kirstin Stevens', machine: 'Built in human-directed code collaboration' }
     ];
     this.EDGES = [
       ['versality', 'os', 'made operational as'], ['versality', 'lexicon', 'named in'], ['versality', 'novacene', 'built with by'],
@@ -606,7 +618,9 @@ class Component extends DCLogic {
       ['siblings', 'nimbus', 'lent a name to'], ['flare', 'os', 'implements'],
       ['versality', 'agents', 'carried to agents by'], ['novacene', 'school', 'runs'],
       ['school', 'agents', 'starts with'], ['school', 'grc', 'ends with'],
-      ['equation', 'mnemonic', 'operationalised by'], ['equation', 'lexicon', 'cross-referenced in']
+      ['equation', 'mnemonic', 'operationalised by'], ['equation', 'lexicon', 'cross-referenced in'],
+      ['versality', 'odyssey', 'told as a voyage in'], ['secondstack', 'wholives', 'catalogued in'], ['siblings', 'wholives', 'portrayed in'],
+      ['siblings', 'siblingsgame', 'made playable in'], ['secondstack', 'siblingsgame', 'gives its house to'], ['secondstack', 'doors', 'opened a door at a time in']
     ];
     this.LIB = [
       { label: 'Research on Zenodo', blurb: 'DOI-stamped, citable releases.', items: [
